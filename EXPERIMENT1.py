@@ -1,0 +1,6 @@
+a = int (input("Enter the value of A: "))
+b = int (input("Enter the value of B: "))
+c = int (input("Enter the value of C: "))
+d = int (input("Enter the value of X: "))
+print ("The following quadratic was entered: ",a,'X^2 +',b,'X +',c)
+print ("The value of the quadratic is ",((a * (d ** 2)) + (b * d) + c))
